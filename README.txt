@@ -48,3 +48,5 @@ Este proyecto utiliza un modelo de XGBoost para realizar predicciones basadas en
 
 5. Abrir tu navegador y acceder a `http://localhost:7860` para usar la interfaz de Gradio.
 
+6. Utiliza el dataframe de prueba adjunto o genera uno nuevo en base a ese.
+
