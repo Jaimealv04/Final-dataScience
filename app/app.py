@@ -33,7 +33,7 @@ def realizar_prediccion(file):
     # Crear el DMatrix para la predicción
     dmatrix = xgb.DMatrix(input_df, enable_categorical=True)
     prediccion = model.predict(dmatrix)
-    return prediccion[0]
+    return prediccion.tolist()
 
 # Configuración de la interfaz de Gradio
 interfaz = gr.Interface(
