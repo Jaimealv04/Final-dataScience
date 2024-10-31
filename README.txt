@@ -88,4 +88,10 @@ docker build -t final_data_science .
 docker run -p 7860:7860 -v /ruta/a/tu/directorio:/app final_data_science
 ```
 
+Asegúrate de reemplazar /ruta/a/tu/directorio con la ruta real en tu máquina local.
+
+### Datos de Prueba
+
+Puedes utilizar el DataFrame de prueba adjunto o generar uno nuevo basándote en ese para realizar predicciones. (El archivo se llama `DatasetPrueba.csv`)
+
 
