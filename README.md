@@ -17,6 +17,23 @@ Este proyecto implementa un modelo de predicción utilizando **XGBoost**, integr
 
 ## Estructura del Proyecto
 
+```plaintext
+    Final-dataScience/
+    ├── app/
+    │   └── models/            # Modelos
+    │       └── Modelo_2.bst
+    │   ├── app.py             # Archivo principal de la aplicación
+    │   ├── Dockerfile         # Configuración para crear la imagen Docker
+    │   └── requirements.txt   # Dependencias de Python
+    ├── datasets/
+    │   ├── DatasetPrueba.csv  # Dataset de prueba
+    │   ├── facturas.csv       # Dataset de facturas
+    │   └── Tipodecambio.csv   # Dataset de tipo de cambio   
+    ├── notebooks/
+    │   └── Modelo_Proyecto_Final_Data_Science.ipynb # Notebook con la explicación del modelo
+    └── README.md              
+```
+
 ## Requisitos
 
 - **Docker**
