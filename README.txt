@@ -40,10 +40,12 @@ Este proyecto utiliza un modelo de XGBoost para realizar predicciones basadas en
     pip install -r app/requirements.txt
     ```
 
-4. Ejecutar la aplicación:
+4. Ejecutar la aplicación con docker:
 
     ```sh
-    python app/app.py
+    docker build -t final_data_science .
+    
+    docker run -p 7860:7860 -v C:\Users\jangr\Desktop\Final-dataScience\app final_data_science
     ```
 
 5. Abrir tu navegador y acceder a `http://localhost:7860` para usar la interfaz de Gradio.
